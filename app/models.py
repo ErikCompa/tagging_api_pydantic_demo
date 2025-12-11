@@ -1,0 +1,1 @@
+# pydantic models for tagging API

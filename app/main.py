@@ -1,0 +1,1 @@
+# fastAPI routes for tagging API
