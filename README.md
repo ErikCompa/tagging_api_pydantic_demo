@@ -15,6 +15,8 @@ A FastAPI-based API for analyzing and tagging speech transcripts and images. Use
 
 - Python 3.8+
 - Google Cloud Vision API key
+- Google Cloud project with Vision API enabled
+- Billing enabled on your Google Cloud project (required for Vision API)
 
 ## Setup
 

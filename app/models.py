@@ -50,7 +50,7 @@ class SpeechAnalysisRequest(BaseModel):
     @classmethod
     def transcript_must_not_be_empty_whitespace(cls, v):
         if not v.strip():
-            raise ValueError('Transcript must not be empty whiutespace')
+            raise ValueError('Transcript must not be empty whitespace')
         return v.strip().lower()
     
 class ImageAnalysisRequest(BaseModel):
